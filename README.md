@@ -1,5 +1,5 @@
 # Facerecognition_Using_Facenet
-This repository discusses about face recognition using facenet technique.
+##This repository discusses about face recognition using facenet technique.
 FaceNet is a face recognition system that was described by Florian Schroff, et al. at Google in their 2015 paper titled *FaceNet: A Unified Embedding for Face Recognition and Clustering.*
 It is a system that, given a picture of a face, will extract high-quality features from the face and predict a 128 element vector representation these features, called a face embedding.
 These face embeddings were then used as the basis for training classifier systems on standard face recognition benchmark datasets, achieving then-state-of-the-art results.
