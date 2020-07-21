@@ -10,12 +10,12 @@ The repository consists of datasets for training and validation in Face_Recognit
 and it consists of three python files consisting of code which are used for face recognition.
 
 
-1) The python file named "data_processing" loads the training dataset and saves a compressed file of the dataset.
+1) The python file named "data_processing.py" loads the training dataset and saves a compressed file of the dataset.
 and the
-2) other one namely "face_embeddings" takes in the previously saved compressed .npz file and extracts the 128 element vectors which are features on the train & val dataset and saves another compressed file which contains the face embeddings extracted from the both datasets. The face embeddings are extracted using pretrained facenet model in keras which can be found here.
+2) other one namely "face_embeddings.py" takes in the previously saved compressed .npz file and extracts the 128 element vectors which are features on the train & val dataset and saves another compressed file which contains the face embeddings extracted from the both datasets. The face embeddings are extracted using pretrained facenet model in keras which can be found here.
 https://drive.google.com/open?id=1pwQ3H4aJ8a6yyJHZkTwtjcL4wYWQb7bn
 
-3) "face_prediction" loads the the face emebddings of the train dataset and compares this embeddings with that of the val dataset and  predicts the faces in the val dataset and displays the detected image.
+3) "face_prediction.py" loads the the face emebddings of the train dataset and compares this embeddings with that of the val dataset and  predicts the faces in the val dataset and displays the detected image.
 
 # Implementing face recognition in real time using webcam
 
