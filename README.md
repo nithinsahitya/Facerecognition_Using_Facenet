@@ -19,3 +19,7 @@ https://drive.google.com/open?id=1pwQ3H4aJ8a6yyJHZkTwtjcL4wYWQb7bn
 
 # Implementing face recognition in real time using webcam
 
+Face recognition becomes worthy when it works in real time. In this repository Face_Recognition_realtime_facenet folder contains the real time implementation of face recognition using facenet and MTCNN. For this I took data of some famous personalities and some persons known to me. 
+
+# How it works
+1) The folder contains prepare_data.py file run the file by giving the encoding model, dataset, 
