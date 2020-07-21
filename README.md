@@ -6,7 +6,7 @@ These face embeddings were then used as the basis for training classifier system
 
 
 # How it works
-The repository consists of datasets for training and validation in Face_Recognition_image_facenet folder which I have used for face recognition download the files and save the files in a folder named "5-celebrity-faces-dataset" which is the name I have used in my code you can change according to your use.
+The repository consists of datasets for training and validation in Face_Recognition_image_facenet folder which I have used for face recognition download the files these are the name I have used in my code you can change according to your use.
 and it consists of three python files consisting of code which are used for face recognition.
 
 
