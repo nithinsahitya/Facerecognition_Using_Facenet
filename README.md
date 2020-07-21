@@ -22,4 +22,6 @@ https://drive.google.com/open?id=1pwQ3H4aJ8a6yyJHZkTwtjcL4wYWQb7bn
 Face recognition becomes worthy when it works in real time. In this repository Face_Recognition_realtime_facenet folder contains the real time implementation of face recognition using facenet and MTCNN. For this I took data of some famous personalities and some persons known to me. 
 
 # How it works
-1) The folder contains prepare_data.py file run the file by giving the encoding model, dataset, 
+1) The folder contains prepare_data.py file run the file by giving the encoding model, dataset directories 
+Remember that for both real time and image to recognize faces it requires facenet_keras.h5 model which is available in the above drive link.
+2) The above python file generates encodings.pkl file which contains the embeddings of the dataset now run the face_recognizer_camera.py file.
