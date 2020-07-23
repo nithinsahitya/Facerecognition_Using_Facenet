@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jun 10 09:51:23 2020
-
-@author: NITHIN BURRA
 """
 
 # calculate a face embedding for each face in the dataset using facenet
