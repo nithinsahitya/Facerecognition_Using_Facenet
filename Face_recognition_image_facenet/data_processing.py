@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jun  5 11:32:36 2020
-
-@author: NITHIN BURRA
 """
 
 # face detection for the 5 Celebrity Faces Dataset
@@ -79,24 +77,4 @@ print(trainX.shape, trainy.shape)
 # load test dataset
 testX, testy = load_dataset('val/')
 # save arrays to one file in compressed format
-savez_compressed('5-celebrity-faces-dataset.npz', trainX, trainy, testX, testy)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+savez_compressed('5-celebrity-faces-dataset.npz', trainX, trainy, testX, testy
