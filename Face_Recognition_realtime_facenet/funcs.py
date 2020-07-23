@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Jul 21 08:10:46 2020
-
-@author: NITHIN BURRA
 """
 
 import pickle
