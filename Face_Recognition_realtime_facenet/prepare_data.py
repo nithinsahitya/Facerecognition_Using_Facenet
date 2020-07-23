@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Jul 20 11:34:14 2020
-
-@author: NITHIN BURRA
 """
 
 import os
@@ -38,7 +36,6 @@ for person_name in os.listdir(people_dir):
             r_e = box['keypoints']['right_eye']
             face = align(img, l_e, r_e, size=required_size, eye_pos=(0.35, 0.4))
             face = normalize(face)
-            # face, _, _ = get_face(img_rgb, box['box'])
             encode = get_encode(face_encoder, face, required_size)
             encodes.append(encode)
     if encodes:
