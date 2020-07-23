@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Jul 20 11:37:27 2020
-
-@author: NITHIN BURRA
 """
 
 from scipy.spatial.distance import cosine
@@ -67,7 +65,7 @@ if __name__ == '__main__':
         if not ret:
             print("no frame:")
             break
-        #frame = cv2.flip(frame,0)
+        
         frame = recognize(frame, face_detector, face_encoder, encoding_dict)
         cv2.imshow('Face Recognition', frame)
         out.write(frame)
