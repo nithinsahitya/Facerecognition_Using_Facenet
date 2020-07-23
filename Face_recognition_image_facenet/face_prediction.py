@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jun 10 09:52:30 2020
-
-@author: NITHIN BURRA
 """
 
 # develop a classifier for the 5 Celebrity Faces Dataset
