@@ -21,5 +21,6 @@ Face recognition becomes worthy when it works in real time. In this repository F
 
 # How it works
 1) The folder contains prepare_data.py file run the file by giving the encoding model, dataset directories 
-Remember that for both real time and image to recognize faces it requires facenet_keras.h5 model which is available in the above drive link.
-2) The above python file generates encodings.pkl file which contains the embeddings of the dataset now run the face_recognizer_camera.py file.
+Remember that for both real time and image to recognize faces it requires "facenet_keras.h5" model which is available in the above drive link.
+2) The above python file generates "encodings.pkl" file which contains the embeddings of the dataset now run the "face_recognizer_camera.py" file.
+3) The python file named "face_rec.py" is the combination of above two scipts in that we just need to specify the path for dataset, facenet_keras.h5 model and encodings by providing these it automatically generates the encodings and turns on the webcam for face recognition.
